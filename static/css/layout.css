@@ -1,5 +1,17 @@
+@font-face{
+  font-family: 'Fira Code';
+  src: url('https://github.com/tonsky/FiraCode/blob/master/distr/eot/FiraCode-Light.eot');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Mary Jane';
+  src :url('Mary Jane Olyff.ttf');
+}
+
 body {
-  font-family: "Arial", Gadget, sans-serif;
+  font-family: 'Fira Code';
   counter-reset: heading;
   margin: 0;
   padding: 1em 0.5em 0.5em 0.5em;
@@ -124,7 +136,8 @@ th, td {
 
 /* site title  */
 .siteTitle {
-  font-size: 2.5em;
+  font-family: 'Mary Jane';
+  font-size: 3.5em;
   margin-bottom: 0.2em;
 }
 
@@ -356,7 +369,7 @@ th, td {
 }
 
 .rmore {
-  white-space:nowrap; 
+  white-space:nowrap;
   padding: 0 0 0 0.3em;
 }
 
